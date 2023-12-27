@@ -28,6 +28,11 @@ sequenceDiagram
     activate server
     server-->>browser: {content: "I want a 10", date: "2023-12-27T12:47:16.375Z"}
     deactivate server
+
+    browser->>server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    activate server
+    browser->>server: 201 (Created)
+    deactivate server
     
     Note right of browser: The browser executes the event handlern that renders the notes
 
