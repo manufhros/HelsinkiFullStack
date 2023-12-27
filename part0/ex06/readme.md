@@ -1,4 +1,4 @@
-Part 0 - Exercise 05:
+Part 0 - Exercise 06:
 
 ```mermaid
 
